@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MoneyMap</string>
+    <string name="newactlink"><u>No account?Create one</u>.</string>
+    <string name="info">OWE:- You have lent the person some of amount of money.\n
+                        DEBT:- The person has lent you the money.\n
+                        GRAPH:- Changes after every month.
+    </string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005b96</color>
+    <color name="colorPrimaryDark">#0E4866</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#D4F1ED</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Text_color">#0d47a1</color>
+    <color name="button_colour">#C9EAF7</color>
+    <color name="onpressnut">#3880A0</color>
+    <color name="onpress">#75CAF3</color>
+    <color name="cardback">#D81B60</color>
+    <color name="graph">#E1E4E4</color>
+    <color name="DarkBlue">#0d47a1</color>
+    <color name="text">#000000</color>
+    <color name="splash">#FFFFFF</color>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/textInputLayout1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:hint="Name of the Person"-->
+<!--        android:textAlignment="center"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:gravity="center|start"-->
+<!--        android:padding="5dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColorHint="@color/Text_color"-->
+<!--        tools:layout_editor_absoluteX="4dp"-->
+<!--        tools:layout_editor_absoluteY="1dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/text1">-->
+<!--        </com.google.android.material.textfield.TextInputEditText>-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/textInputLayout2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:hint="Amount"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_below="@+id/textInputLayout1"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:focusable="true"-->
+<!--        android:focusableInTouchMode="true"-->
+<!--        android:gravity="center|start"-->
+<!--        android:padding="5dp"-->
+<!--        android:paddingTop="5dp"-->
+<!--        android:textColorHint="@color/Text_color"-->
+<!--        tools:layout_editor_absoluteX="4dp"-->
+<!--        tools:layout_editor_absoluteY="1dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:id="@+id/text2"-->
+<!--            android:inputType="number"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        </com.google.android.material.textfield.TextInputEditText>-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--</RelativeLayout>-->
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center|start"
+    android:hint="Name of the Person"
+    android:padding="5dp"
+    android:paddingTop="5dp"
+    android:id="@+id/textInputLayout1"
+    android:textColorHint="@color/Text_color"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/Cost_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="60dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="11dp"
+    android:layout_marginBottom="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center|start"
+    android:hint="Amount"
+    android:padding="5dp"
+    android:paddingTop="5dp"
+    android:textColorHint="@color/Text_color"
+    tools:layout_editor_absoluteX="4dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:inputType="number"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:id="@+id/text2"
+    android:layout_height="80dp"
+    android:foregroundGravity="center"
+    android:layout_below="@+id/Cost_layout">
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
