@@ -11,4 +11,4 @@ It is easy to use and understand with effective graphs for visualization.
 Need android studio 3.4.1 and above
 
 ### Screenshots of the app
-[a link](https://github.com/Srush-Ray/Money-Management-Project-app-/blob/master/MONEY%20MAP.pdf)
+[Link to report](https://github.com/Srush-Ray/Money-Management-Project-app-/blob/master/MONEY%20MAP.pdf)
